@@ -111,9 +111,7 @@ var startGame = function() {
 
 }; // end start game function or continue?
 
-
-
-// function to end game
+// function to end the entire game
 var endGame = function() {
   // if player is still alive, player wins!
   if (playerHealth > 0) {
@@ -132,6 +130,14 @@ var playAgainConfirm = window.confirm("Would you like to play again?");
     window.alert("Thank you for playing Robot Gladiators! Come back soon!");
   }
 };
+
+
+
+
+
+
+
+
 //CHECK WHETHER THIS SHOULD BE FUNCTION OR VAR
   function shop() {
     var shopOptionPrompt = window.prompt(
@@ -176,7 +182,7 @@ var playAgainConfirm = window.confirm("Would you like to play again?");
         shop();
         break;
     }
-  }
+  };
 };
 
 
